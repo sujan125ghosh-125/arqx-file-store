@@ -33,10 +33,10 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-OWNER_IDS = {int(x.strip()) for x in os.environ.get("OWNER_IDS", "").split(",") if x.strip()}
-ADMIN_IDS = {int(x.strip()) for x in os.environ.get("ADMIN_IDS", "").split(",") if x.strip()}
-STORAGE_CHAT_ID = int(os.environ.get("STORAGE_CHAT_ID", "0"))
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8797728149:AAH5VZrRL6Vm87KyrDt6TUmUwi6mTJg3Z18")
+OWNER_IDS = {int(x.strip()) for x in os.environ.get("OWNER_IDS", "8671141543").split(",") if x.strip()}
+ADMIN_IDS = {int(x.strip()) for x in os.environ.get("ADMIN_IDS", "8671141543").split(",") if x.strip()}
+STORAGE_CHAT_ID = int(os.environ.get("STORAGE_CHAT_ID", "-1003983857797"))
 DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
 logging.basicConfig(
